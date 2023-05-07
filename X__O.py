@@ -64,7 +64,6 @@ def player_move():
         if field[x - 1][y - 1] != ' ':
             print('Клетка занята!')
             continue
-
         else:
             return x, y
 
