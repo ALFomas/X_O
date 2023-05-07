@@ -118,7 +118,7 @@ while True:
         playing_field()
         break
     if is_draw():
-        print('НИЧЬЯ!')
+        print('                НИЧЬЯ!')
         playing_field()
         break
     playing_field()
