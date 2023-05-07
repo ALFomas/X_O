@@ -58,7 +58,7 @@ def player_move():
             print('Координаты должны быть цифрами!')
             continue
         x, y = int(x), int(y)
-        if x < 0 or y < 0 or x > 3 or y > 3:
+        if x < 1 or y < 1 or x > 3 or y > 3:
             print('Неверный диапозон координат')
             continue
         if field[x - 1][y - 1] != ' ':
